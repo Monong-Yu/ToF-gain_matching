@@ -9,3 +9,6 @@ Fitting procedure:
 1. Find the fitting range. We only need pedestal, 1 PE and 2 PE (line 18 - 22).
 2. Make a straight line connects the first point and the last point of the range we found (line 23 - 25). Then find the distance between the line and the scan curve. This will help to determine the fitting range of each function (line 27 - 33). 
 3. Some fits may fail. Then define the fitting range manually (line 38 - 50). Every scan differs, so there will be more and more exceptions... If you have a better fitting scheme, that may help.
+
+Comment:
+My results is in the gain_matching.zip. You can compare the output with my version.
